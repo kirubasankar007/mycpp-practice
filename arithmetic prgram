@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    
+    int total_students, teams;
+    cin >> total_students >> teams;
+    int students_per_team = total_students / teams;
+    int students_left_out = total_students % teams;
+    cout << students_per_team << endl;
+    cout << students_left_out << endl;
+    
+    return 0;
+}
+
+
