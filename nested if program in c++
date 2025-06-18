@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{ 
+   int age;
+   cin>>age;
+   if(age>=13)
+   {
+       if(age>=18)
+       {
+           cout<<age<<"your the adult"<<endl;
+       }
+       else
+       {
+           cout<<age<<"your the teenager"<<endl;
+       }
+   }
+   else
+   {
+       cout<<age<<"your the child";
+   }
+    
+    return 0;
+}
